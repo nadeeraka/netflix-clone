@@ -18,6 +18,11 @@
       .red-btn {
         @apply bg-[#e50914] py-[6px] mt-3 md:mt-0 px-[10px] md:px-[26px] flex items-center rounded-sm text-base md:text-[1.625rem] font-light;
       }
+
+      .gray-border {
+      @apply border-t-[8px] border-[#222];
+    }
+
     </style>
   </head>
   <body class="bg-black">
@@ -94,10 +99,17 @@
     </div>
 
     <!-- section 1 -->
-
-    <div class="">
-      <div class=""></div>
-      <div class=""></div>
+    <div class="gray-border">
+      <div class="flex md:flex-row flex-col text-white justify-between py-16 md:gap-[30px] max-w-[1100px] mx-auto items-center">
+        <div class="md:w-[52%] w-full text-center md:text-left">
+          <h1 class="title pb-3">Enjoy on your TV.</h1>
+          <p class="subtitle">Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+        </div>
+        <div class="relative md:w-[48%] w-full">
+          <img class="w-full h-full" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="">
+          <video class="absolute top-[48%] max-h-[54%] max-w-[73%] left-[50%] -translate-x-1/2 -translate-y-1/2" data-uia="our-story-card-video" autoplay="" playsinline="" muted="" loop=""><source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v" type="video/mp4"></video>
+        </div>
+      </div>
     </div>
 
 
@@ -105,7 +117,5 @@
 
 
 
-
-    
   </body>
 </html>
